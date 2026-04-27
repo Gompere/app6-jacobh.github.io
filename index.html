@@ -46,6 +46,26 @@
 </header>
 
 <div class="container">
+  <h2>Company Synopsis</h2>
+  <p>
+  Aerospace and defense companies, such as Lockheed Martin, produce state-of-the-art flight systems. These systems include figher jets, missiles, rockets, and satellites, all of which must operate successfully every time without
+  possibility of error. Furthermore, these systems have many sensors that collect data and inputs that are used to control operation, meaning the race conditions and resource usage must be protected against. If the system fails to meet 
+  a scheduled deadline or there is overusage of a shared resource during operation, then the system will fail and possibly cause harm to individuals on board which is why a real time system must be used.
+  </p>
+  
+  <h2>Project Overview</h2>
+  <p>
+  This project focuses on building a concept real time system for a fighter jet simulator to be used in the Aerospace/Defense industry. A potentiometer and button are used for inputs while LED give visual indication of what 
+  is occuring in simulation. Semaphores are used to maintain concurrency between real time tasks and protect access of the shared UART terminal.
+  </p>
+
+  <h2>Hardware Setup (Wokwi simulation)</h2>
+  <p>- 1x Potentiometer:   GPIO34 (Throttle Sensor)</p>
+  <p>- 1x Pushbutton:      GPIO18 (ABORT - Eject Pilot)</p>
+  <p>- 1x Red LED:         GPIO4 (ABORT LED)</p>
+  <p>- 1x Green LED:       GPIO5 (Nominal Status LED)</p>
+  <p>- 1x Yellow LED:      GPIO0 (Telemetry LED)</p>
+  
   <h2>Application 6 Youtube Demo</h2>
   <div class="video-container">
     <!-- Replace VIDEO_ID with your YouTube video's ID -->
